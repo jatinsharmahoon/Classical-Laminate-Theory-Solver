@@ -1,6 +1,6 @@
 # Classical Laminate Theory (CLT) Calculator
 
-A MATLAB/Octave script that performs full Classical Laminate Theory analysis on a user-defined composite laminate: builds the ABD stiffness matrix, solves for mid-plane strains and curvatures under applied loads/moments, and recovers ply-by-ply stress and strain in both global and material (local) coordinate systems.
+A MATLAB script that performs full Classical Laminate Theory analysis on a user-defined composite laminate: builds the ABD stiffness matrix, solves for mid-plane strains and curvatures under applied loads/moments, and recovers ply-by-ply stress and strain in both global and material (local) coordinate systems.
 
 Built as a personal tool for solving Mechanics of Solids / Composites coursework assignments faster and more reliably than repeated hand calculation.
 
@@ -49,7 +49,7 @@ laminate-clt-tool/
 ```
 
 ## Tools
-MATLAB / GNU Octave (no toolboxes required — uses only core matrix operations).
+MATLAB (no toolboxes required — uses only core matrix operations).
 
 ## Possible Extensions
 - Failure analysis (max stress / Tsai-Wu criteria) per ply using the recovered local stresses
